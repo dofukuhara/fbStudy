@@ -1,4 +1,7 @@
-package com.example.douglasfukuharastudy;
+package com.example.douglasfukuharastudy.fragment;
+
+import com.example.douglasfukuharastudy.R;
+import com.example.douglasfukuharastudy.R.layout;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
