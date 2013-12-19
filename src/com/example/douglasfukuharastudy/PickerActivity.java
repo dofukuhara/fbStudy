@@ -45,8 +45,7 @@ public class PickerActivity extends FragmentActivity {
 	            }
 	        });
 	        // Set the listener to handle button clicks
-	        friendPickerFragment.setOnDoneButtonClickedListener(
-	                new PickerFragment.OnDoneButtonClickedListener() {
+	        friendPickerFragment.setOnDoneButtonClickedListener(new PickerFragment.OnDoneButtonClickedListener() {
 	            @Override
 	            public void onDoneButtonClicked(PickerFragment<?> fragment) {
 	                finishActivity();

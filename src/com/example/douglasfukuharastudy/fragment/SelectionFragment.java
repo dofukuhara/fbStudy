@@ -105,7 +105,7 @@ public class SelectionFragment extends Fragment{
 				R.id.selection_list, listElements));
 		
 		// restore the list items' state after they populte
-		listElements.add(new PeopleListElement(0));
+		//listElements.add(new PeopleListElement(0));
 		if (savedInstanceState != null) {
 			// Restore the state of each list element
 			for (BaseListElement listElement : listElements) {
